@@ -127,7 +127,10 @@ message
 option
 ```
 Provides an option that the user can optionally select.
-该变量可用于调试CMakelists流程，具体用法可以参考azure-iot-sdk-c的CMakeLists.txt里的用法
+该变量可用于调试CMakelists流程，具体用法可以参考azure-iot-sdk-c的CMakeLists.txt里的用法  
+
+
+查看Cmake生成Makefile后，编译.c文件时所使用的编译参数及链接的库等，以及头文件目录，都可以在build.make、flags.make、link.txt等几个文件中找到，这几个文件都在CMakeFiles目录中
  
  
  
