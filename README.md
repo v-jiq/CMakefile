@@ -133,4 +133,6 @@ Provides an option that the user can optionally select.
 查看Cmake生成Makefile后，编译.c文件时所使用的编译参数及链接的库等，以及头文件目录，都可以在build.make、flags.make、link.txt等几个文件中找到，这几个文件都在CMakeFiles目录中
  
  
+ azure-iot-sdk-c 只编译其中一个sample的方法,
+ 
  
