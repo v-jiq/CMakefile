@@ -136,3 +136,6 @@ Provides an option that the user can optionally select.
  azure-iot-sdk-c 只编译其中一个sample的方法.
  
  find_package 中XXXfind.cmake的内容解析
+ 
+ build pnp sample:
+ cmake . -DCMAKE_TOOLCHAIN_FILE=/home/jjiq/pnp_sdk_c_1.3.6/pnp_sample_9205/azure-iot-sdk-c/build_all/neoway/neoway-toolchain-iot-c.cmake  -Duse_prov_client=ON -Dhsm_type_symm_key:BOOL=ON  -Dskip_samples=ON
